@@ -28,7 +28,7 @@
     border-right: 4px solid #17FEFF;
     overflow: hidden;
     color: #17FEFF;
-    animation: group3 0.8s linear infinite;
+    animation: group3 1.4s linear infinite;
 }
 
 @keyframes group3 {

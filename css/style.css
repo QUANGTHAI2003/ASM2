@@ -927,6 +927,10 @@ body::-webkit-scrollbar-track {
     padding-bottom: 0;
 }
 
+/* .footer__grid {
+    display: flex;
+} */
+
 .footer__about {
     margin-bottom: 30px;
 }

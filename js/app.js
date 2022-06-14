@@ -1,5 +1,5 @@
 'use strict';
-console.time('app');
+// console.time('app');
 
 (function ($) {
     // Set background image
@@ -46,4 +46,21 @@ console.time('app');
     });
 })(jQuery);
 
-console.timeEnd('app')
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+
+const indents = $$('.indent')
+const infos = $$('.info-item')
+
+indents.forEach((tab, index) => {
+    const info = infos[index];
+    tab.onclick = function () {
+        $('.indent.active').classList.remove('active');
+        $('.info-item.active').classList.remove('active');
+        this.classList.add('active')
+        info.classList.add('active')
+
+    }
+})
+
+// console.timeEnd('app')

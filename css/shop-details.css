@@ -254,14 +254,12 @@ a {
     align-items: center;
     width: 550px;
     margin-top: 20px;
-
-
 }
 
 .belowright img {
     width: 150px;
     height: 150px;
-
+    padding: 0 4px;
 }
 
 .availability ul li b {
@@ -292,16 +290,26 @@ a {
     flex: 1;
 }
 
-.hoac {
+.indent {
     color: #ccc;
     padding: 1px 1rem;
-    font-size: 14px;
+    font-size: 16px;
+    transition: all 0.6s ease;
+    font-weight: 700;
 }
 
-.hoacden,
-.active {
-    font-weight: bold;
+.indent.active {
+    font-weight: 700;
     color: #000;
+}
+
+.info-item {
+    display: none;
+    transition: all 0.6s ease;
+}
+
+.info-item.active {
+    display: block;
 }
 
 #footer {

@@ -12,8 +12,11 @@ main {
     margin: 0 auto;
 }
 
-
 /*Phần 1*/
+.details-content {
+    margin-top: -50px;
+}
+
 .breadcrumb__text {
     position: relative;
     background-image: url(../img/breadcrumb.jpg);
@@ -23,15 +26,12 @@ main {
 
 .breadcrumb__text {
     text-align: center;
-
-
 }
 
 .breadcrumb__text h2 {
     font-size: 56px;
     color: #ffffff;
     font-weight: 900;
-
 }
 
 h2 {
@@ -41,7 +41,6 @@ h2 {
 }
 
 .breadcrumb__option a {
-
     font-size: 16px;
     color: #ffffff;
     font-weight: 700;
@@ -49,7 +48,6 @@ h2 {
     position: relative;
     text-decoration: none;
     background-color: transparent;
-
 }
 
 .breadcrumb__option>span {
@@ -300,7 +298,8 @@ a {
     font-size: 14px;
 }
 
-.hoacden {
+.hoacden,
+.active {
     font-weight: bold;
     color: #000;
 }

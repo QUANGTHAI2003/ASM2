@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/shop-details.css">
+    <link rel="stylesheet" href="./css/loading.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,6 +22,19 @@
 </head>
 
 <body>
+    <!-- Loading -->
+    <div class="loader-wrapper">
+        <div class="middle">
+            <div class="bar bar1"></div>
+            <div class="bar bar2"></div>
+            <div class="bar bar3"></div>
+            <div class="bar bar4"></div>
+            <div class="bar bar5"></div>
+            <div class="bar bar6"></div>
+            <div class="bar bar7"></div>
+            <div class="bar bar8"></div>
+        </div>
+    </div>
     <header class="header">
         <div class="header__top">
             <div class="container">
@@ -140,107 +155,122 @@
             </div>
         </div>
     </section>
-    <div class="breadcrumb__text">
-        <h2>Vegetable’s Package</h2>
-        <div class="breadcrumb__option">
-            <a href="#">Home -</a>
-            <a href="#">Vegetables -</a>
-            <span>Vegetable’s Package</span>
+    <section class="details-content">
+        <div class="breadcrumb__text">
+            <h2>Vegetable’s Package</h2>
+            <div class="breadcrumb__option">
+                <a href="#">Home - </a>
+                <a href="#">Vegetables - </a>
+                <span>Vegetable’s Package</span>
+            </div>
         </div>
-    </div>
-    <main>
-        <section class="top2">
-            <section class="left">
-                <div class="product__details__pic__item">
-                    <img class="product__details__pic__item--large" src="./img/product/details/product-details-1.jpg"
-                        alt="">
-                </div>
+        <main>
+            <section class="top2">
+                <section class="left">
+                    <div class="product__details__pic__item">
+                        <img class="product__details__pic__item--large"
+                            src="./img/product/details/product-details-1.jpg" alt="">
+                    </div>
 
-                <div class="belowright">
-                    <img src="./img/product/product-2.jpg" alt="">
-                    <img src="./img/product/product-5.jpg" alt="">
-                    <img src="./img/product/product-7.jpg" alt="">
-                    <img src="./img/product/product-6.jpg" alt="">
-                </div>
+                    <div class="belowright">
+                        <img src="./img/product/product-2.jpg" alt="">
+                        <img src="./img/product/product-5.jpg" alt="">
+                        <img src="./img/product/product-7.jpg" alt="">
+                        <img src="./img/product/product-6.jpg" alt="">
+                    </div>
+                </section>
+                <section class="right">
+                    <div class="product__details__pic__info">
+                        <h3>Vetgetable’s Package</h3>
+
+                        <div class="product__details__rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <span>(18 reviews)</span>
+                        </div>
+
+                        <span class="money">$50.00</span>
+                        <p class="info">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam
+                            sit
+                            amet quam
+                            vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet
+                            quam
+                            vehicula elementum sed sit amet dui. Proin eget tortor risus.</p>
+                    </div>
+                    <div class="quantity">
+                        <div class="pro-qty">
+                            <span class="dec qtybtn">-</span>
+                            <input type="text" value="1">
+                            <span class="inc qtybtn">+</span>
+                        </div>
+
+                        <div>
+                            <a href="#" class="primary-btn">ADD TO CART</a>
+                        </div>
+
+                        <div><a href="#" class="heart-icon"><span class="icon_heart_alt">&#9825;</span></a></div>
+
+                    </div>
+                    <div class="availability">
+                        <ul>
+                            <li><b>Availability</b> <span>In Stock</span></li>
+                            <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
+                            <li><b>Weight</b> <span>0.5 kg</span></li>
+                            <li><b>Share on</b>
+                                <div class="share">
+
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </section>
-            <section class="right">
-                <div class="product__details__pic__info">
-                    <h3>Vetgetable’s Package</h3>
-
-                    <div class="product__details__rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                        <span>(18 reviews)</span>
-                    </div>
-
-                    <span class="money">$50.00</span>
-                    <p class="info">Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vestibulum ac diam sit
-                        amet quam
-                        vehicula elementum sed sit amet dui. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam
-                        vehicula elementum sed sit amet dui. Proin eget tortor risus.</p>
-                </div>
-                <div class="quantity">
-                    <div class="pro-qty">
-                        <span class="dec qtybtn">-</span>
-                        <input type="text" value="1">
-                        <span class="inc qtybtn">+</span>
-                    </div>
-
-                    <div>
-                        <a href="#" class="primary-btn">ADD TO CART</a>
-                    </div>
-
-                    <div><a href="#" class="heart-icon"><span class="icon_heart_alt">&#9825;</span></a></div>
-
-                </div>
-                <div class="availability">
-                    <ul>
-                        <li><b>Availability</b> <span>In Stock</span></li>
-                        <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
-                        <li><b>Weight</b> <span>0.5 kg</span></li>
-                        <li><b>Share on</b>
-                            <div class="share">
-
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-pinterest"></i></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </section>
-        <div class="or">
-            <div class="first"></div>
-            <span class="hoacden">Description</span>
-            <span class="hoac">Information</span>
-            <span class="hoac">Reviews (1)</span>
-            <div class="second"></div>
-        </div>
-        <div class="info_or">
-            <h3>Products Infomation</h3>
-            <br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde dolore odit, temporibus tempore,
-                nesciunt perferendis, consequatur beatae nisi officia quia fuga dolorum nostrum quaerat amet recusandae!
-                Assumenda veritatis aliquam ducimus distinctio consectetur quae velit perferendis tempora at iure neque
-                corporis placeat accusantium accusamus natus, numquam voluptate pariatur! Quam quidem magnam veritatis
-                officiis, dicta impedit tempore assumenda? Reiciendis repellat neque delectus quis nobis suscipit sint,
-                eveniet, id ab minus fuga eligendi molestiae consequuntur excepturi facere, cum ipsum quam reprehenderit
-                pariatur. Dolorum enim iusto eum ut accusamus laudantium nostrum mollitia ipsam ad voluptate natus odio
-                illo dolor et adipisci soluta nobis suscipit provident optio consectetur ipsum repudiandae, totam
-                doloribus? Culpa rem, saepe libero velit suscipit veniam consequatur obcaecati totam eveniet eius vero
-                porro ex.<br> <br> Aliquam labore eum ipsum similique, minima adipisci consequuntur voluptas quaerat ab
-                distinctio, libero cum deleniti? Sequi facilis eos natus perspiciatis, earum ipsa? Cupiditate nobis,
-                vero ipsam reprehenderit perferendis officiis, expedita eveniet nesciunt dignissimos vel hic quibusdam
-                officia ea nam ad quas eaque nihil ab! Nostrum voluptatem veritatis expedita? Illo dignissimos
-                doloremque dolor autem ea? Vel voluptatum eos earum, eius enim, recusandae consectetur ipsa ut expedita
-                ea dolore ducimus, sapiente dolorum veritatis accusamus ratione esse sed voluptatem minus.</p>
-        </div>
-    </main>
+            <div class="or">
+                <div class="first"></div>
+                <span class="hoacden">Description</span>
+                <span class="hoac">Information</span>
+                <span class="hoac">Reviews (1)</span>
+                <div class="second"></div>
+            </div>
+            <div class="info_or">
+                <h3>Products Infomation</h3>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati unde dolore odit, temporibus
+                    tempore,
+                    nesciunt perferendis, consequatur beatae nisi officia quia fuga dolorum nostrum quaerat amet
+                    recusandae!
+                    Assumenda veritatis aliquam ducimus distinctio consectetur quae velit perferendis tempora at iure
+                    neque
+                    corporis placeat accusantium accusamus natus, numquam voluptate pariatur! Quam quidem magnam
+                    veritatis
+                    officiis, dicta impedit tempore assumenda? Reiciendis repellat neque delectus quis nobis suscipit
+                    sint,
+                    eveniet, id ab minus fuga eligendi molestiae consequuntur excepturi facere, cum ipsum quam
+                    reprehenderit
+                    pariatur. Dolorum enim iusto eum ut accusamus laudantium nostrum mollitia ipsam ad voluptate natus
+                    odio
+                    illo dolor et adipisci soluta nobis suscipit provident optio consectetur ipsum repudiandae, totam
+                    doloribus? Culpa rem, saepe libero velit suscipit veniam consequatur obcaecati totam eveniet eius
+                    vero
+                    porro ex.<br> <br> Aliquam labore eum ipsum similique, minima adipisci consequuntur voluptas quaerat
+                    ab
+                    distinctio, libero cum deleniti? Sequi facilis eos natus perspiciatis, earum ipsa? Cupiditate nobis,
+                    vero ipsam reprehenderit perferendis officiis, expedita eveniet nesciunt dignissimos vel hic
+                    quibusdam
+                    officia ea nam ad quas eaque nihil ab! Nostrum voluptatem veritatis expedita? Illo dignissimos
+                    doloremque dolor autem ea? Vel voluptatum eos earum, eius enim, recusandae consectetur ipsa ut
+                    expedita
+                    ea dolore ducimus, sapiente dolorum veritatis accusamus ratione esse sed voluptatem minus.</p>
+            </div>
+        </main>
+    </section>
     <section class="featured spad">
         <div class="container">
             <div class="row">
@@ -315,14 +345,19 @@
         </div>
     </section>
     <!-- Footer Section Begin -->
-    <div id="footer">
+    <footer id="footer">
         <div class="container_top">
             <div class="footer_about">
                 <img src="./img/logo.png" alt="" class="logo_img">
                 <ul>
-                    <li>Address: 60-49 Road 11378 New York</li>
-                    <li>Phone: +65 11.188.888</li>
-                    <li>Email: hello@colorlib.com</li>
+                    <li>Address: Số 288 Đường Nguyễn Văn Linh, Hưng Lợi, Ninh Kiều, Cần Thơ</li>
+                    <li>Phone: +84 *** *** ***</li>
+                    <li>Email:&ensp;thaitqpc04444@fpt.edu.vn
+                        <br>
+                        &ensp;&emsp;&emsp;&ensp;khoatdpc04409@fpt.edu.vn
+                        <br>
+                        &ensp;&emsp;&emsp;&ensp;duclmpc04605@fpt.edu.vn
+                    </li>
                 </ul>
             </div>
             <div class="footer_widget">
@@ -373,9 +408,9 @@
                 <img src="./img/payment-item.png" alt="">
             </div>
         </div>
-    </div>
-    <!-- Footer Section End -->
-    <script src="./js/app.js"></script>
+        </foot>
+        <!-- Footer Section End -->
+        <script src="./js/app.js"></script>
 </body>
 
 </html>

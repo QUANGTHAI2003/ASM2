@@ -74,7 +74,6 @@
 .row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
 }

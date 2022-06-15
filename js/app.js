@@ -15,7 +15,7 @@
     // slideshow use SwiperJs
     let swiperPopular = new Swiper(".mySwiper", {
         loop: true,
-        slidesPerView: 4,
+        slidesPerView: 'auto',
         grabCursor: true,
         spaceBetween: 30,
         centeredSlides: true,
@@ -23,6 +23,20 @@
             delay: 3000,
             disableOnInteraction: false,
         },
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 50,
+            },
+        }
     });
     // Filter Product
     $('.featured__controls li').on('click', function () {

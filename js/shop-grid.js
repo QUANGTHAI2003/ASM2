@@ -20,23 +20,3 @@
     minamount.val('$' + rangeSlider.slider("values", 0));
     maxamount.val('$' + rangeSlider.slider("values", 1));
 })(jQuery);
-
-const decrementBtn = document.querySelector('#decrement');
-const quantityElem = document.querySelector('#quantity');
-const incrementBtn = document.querySelector('#increment');
-
-function changeAmount() {
-    for (let i = 0; i < incrementBtn.length; i++) {
-        incrementBtn[i].addEventListener('click', function () {
-            let increment = Number(this.previousElementSibling.innerText);
-            increment++;
-            this.previousElementSibling.innerText = increment;
-        });
-        decrementBtn[i].addEventListener('click', function () {
-            let decrement = Number(this.nextElementSibling.innerText);
-            decrement <= 0 ? 1 : decrement--;
-            this.nextElementSibling.innerText = decrement;
-        });
-    }
-}
-changeAmount();

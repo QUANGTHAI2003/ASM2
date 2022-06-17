@@ -29,7 +29,6 @@
 
 .spad {
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .text-white h1,
@@ -800,9 +799,15 @@
 
 /* Latest Product */
 
-.latest-product {
-    padding-top: 80px;
-    padding-bottom: 0;
+
+.size-item {
+    width: 300px;
+}
+
+.latest-product__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .latest-product__text h4 {
@@ -811,23 +816,43 @@
     margin-bottom: 45px;
 }
 
-.latest-product__slider.owl-carousel .owl-nav {
+.latest-product__text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-product__slider.owl-carousel.owl-nav {
     position: absolute;
     right: 20px;
     top: -75px;
 }
 
-.latest-product__slider.owl-carousel .owl-nav button {
+.latest-product__text .owl-nav button {
     height: 30px;
     width: 30px;
-    background: #F3F6FA;
+    background-color: #F3F6FA;
     border: 1px solid #e6e6e6;
     font-size: 14px;
     color: #636363;
     margin-right: 10px;
     line-height: 30px;
     text-align: center;
+    margin-bottom: 45px;
 }
+
+/* .latest-product__slider.owl-carousel .owl-nav button {
+    height: 30px;
+    width: 30px;
+    background: #F3F6FA;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    color: #636363;
+    margin-right: 8px;
+    line-height: 30px;
+    text-align: center;
+}
+
+*/
 
 .latest-product__slider.owl-carousel .owl-nav button span {
     font-weight: 700;

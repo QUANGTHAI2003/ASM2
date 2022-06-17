@@ -107,7 +107,8 @@
                     <div class="header__cart">
                         <ul>
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                            <li><a href="./shopping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a>
+                            </li>
                         </ul>
                         <div class="header__cart__price">item: <span>$150.00</span></div>
                     </div>
@@ -220,7 +221,7 @@
             <div class="row featured__filter featured__row">
                 <div class="col-lg-3  mix fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -233,9 +234,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3  mix fruit">
+                <div class="col-lg-3  mix vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -248,9 +249,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3  mix fruit">
+                <div class="col-lg-3  mix vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -308,9 +309,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3  mix fruit">
+                <div class="col-lg-3  mix fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -370,7 +371,7 @@
                 </div>
                 <div class="col-lg-3  mix vegetables">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-11.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-11.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -383,9 +384,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3  mix vegetables">
+                <div class="col-lg-3  mix fresh-meat">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-12.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-12.webp">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -426,112 +427,142 @@
     <section class="latest-product spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Latest Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
+                <div class="col-lg-4 col-md-6 size-item">
+                    <div class="latest-product__text-wrapper">
+                        <div class="latest-product__text">
+                            <h4>Latest Products</h4>
+                            <div class="owl-nav">
+                                <button type="button" role="presentation" class="owl-prev">
+                                    <span><i class="fa-solid fa-angle-left"></i>
+                                        <span></span>
+                                    </span>
+                                </button>
+                                <button type="button" role="presentation" class="owl-next">
+                                    <span><i class="fa-solid fa-angle-right"></i>
+                                        <span></span>
+                                    </span>
+                                </button>
                             </div>
                         </div>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-1.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-2.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-3.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Top Rated Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
+                <div class="col-lg-4 col-md-6 size-item">
+                    <div class="latest-product__text-wrapper">
+                        <div class="latest-product__text">
+                            <h4>Latest Products</h4>
+                            <div class="owl-nav">
+                                <button type="button" role="presentation" class="owl-prev">
+                                    <span><i class="fa-solid fa-angle-left"></i>
+                                        <span></span>
+                                    </span>
+                                </button>
+                                <button type="button" role="presentation" class="owl-next">
+                                    <span><i class="fa-solid fa-angle-right"></i>
+                                        <span></span>
+                                    </span>
+                                </button>
                             </div>
                         </div>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-1.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-2.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-3.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <h4>Review Products</h4>
-                        <div class="latest-product__slider owl-carousel">
-                            <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-1.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-2.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
-                                <a href="#" class="latest-product__item">
-                                    <div class="latest-product__item__pic">
-                                        <img src="img/latest-product/lp-3.jpg" alt="">
-                                    </div>
-                                    <div class="latest-product__item__text">
-                                        <h6>Lorem, ipsum dolor.</h6>
-                                        <span>$30.00</span>
-                                    </div>
-                                </a>
+                <div class="col-lg-4 col-md-6 size-item">
+                    <div class="latest-product__text-wrapper">
+                        <div class="latest-product__text">
+                            <h4>Latest Products</h4>
+                            <div class="owl-nav">
+                                <button type="button" role="presentation" class="owl-prev">
+                                    <span><i class="fa-solid fa-angle-left"></i>
+                                        <span></span>
+                                    </span>
+                                </button>
+                                <button type="button" role="presentation" class="owl-next">
+                                    <span><i class="fa-solid fa-angle-right"></i>
+                                        <span></span>
+                                    </span>
+                                </button>
                             </div>
                         </div>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-1.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-2.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
+                        <a href="#" class="latest-product__item">
+                            <div class="latest-product__item__pic">
+                                <img src="./img/latest-product/lp-3.jpg" alt="">
+                            </div>
+                            <div class="latest-product__item__text">
+                                <h6>Crab Pool Security</h6>
+                                <span>$30.00</span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

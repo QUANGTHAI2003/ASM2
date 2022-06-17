@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;900&display=swap');
 
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: "Cairo", sans-serif;
-}
-
 main {
     width: 80%;
     margin: 0 auto;
@@ -22,6 +16,8 @@ main {
 
 .breadcrumb__text {
     text-align: center;
+    margin-bottom: 50px;
+    margin-top: -60px;
 }
 
 .breadcrumb__text h2 {
@@ -164,7 +160,7 @@ thead tr th {
 }
 
 .shoping__cart__item {
-    padding: 20px;
+    padding: 60px;
     padding-left: 0;
 }
 
@@ -325,7 +321,7 @@ h5 {
     font-weight: 700;
     background: #7fad39;
     letter-spacing: 2px;
-    max-height: 20px;
+    max-height: 40px;
 }
 
 .uptop>span {
@@ -335,4 +331,38 @@ h5 {
 
 .upr2>div:nth-child(2) {
     border-bottom: 1px solid rgb(213, 209, 209);
+}
+
+.col-cart-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.col-cart-3 button {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebebeb;
+}
+
+.col-cart-3 span {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebebeb;
+    font-size: 16px;
+}
+
+.col-cart-3 button i {
+    font-size: 12px;
 }

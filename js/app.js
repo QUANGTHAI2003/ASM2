@@ -47,17 +47,6 @@
         var containerEl = document.querySelector('.featured__filter');
         var mixer = mixitup(containerEl);
     }
-    let swiperLatest = new Swiper(".latest-product__slider", {
-        loop: true,
-        slidesPerView: 4,
-        grabCursor: true,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-    });
 })(jQuery);
 
 const $ = document.querySelector.bind(document);
